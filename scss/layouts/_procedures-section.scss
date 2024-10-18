@@ -1,0 +1,21 @@
+.procedures-section {
+  padding: 130px 0;
+
+  &__container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list {
+    padding: 48px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__items {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+}

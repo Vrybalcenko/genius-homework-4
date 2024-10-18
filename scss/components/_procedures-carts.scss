@@ -1,0 +1,43 @@
+.procedures-cart {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 456px;
+  width: 344px;
+  padding: 24px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(49, 38, 26, 0) 55.21%,
+    rgba(49, 38, 26, 0.71) 72.92%,
+    var(--color--background) 100%
+  );
+  border: 1px solid lightgray;
+  border-radius: 4px 120px;
+  transition: 0.3s;
+
+  &__img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 120px;
+  }
+
+  &__title {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: var(--color--white);
+    position: absolute;
+    top: 372px;
+    position: static;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
