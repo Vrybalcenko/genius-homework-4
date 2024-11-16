@@ -1,0 +1,25 @@
+.link {
+  color: var(--color--primary--black);
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--color--primary--blue);
+  font-weight: 700;
+}
+
+.link_1 {
+  color: var(--color--white);
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.link_1:hover {
+  color: var(--color--primary--blue);
+  font-weight: 700;
+}
