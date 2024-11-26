@@ -1,0 +1,48 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: var(--color--white);
+  transform: translateX(100%);
+  transition: transform 0.3s;
+
+  @media screen and (min-width: $bt-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $bt-desktop) {
+    display: none;
+  }
+
+  &.is-open {
+    transform: translateX(0);
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    background: transparent;
+  }
+
+  &__btn-close-cross{
+    width: 12px;
+  }
+
+  &__logo {
+    padding: 16px 20px;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    padding: 42px 20px;
+    gap: 16px;
+  }
+
+  &__icons {
+    display: flex;
+  }
+}

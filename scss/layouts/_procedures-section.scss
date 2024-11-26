@@ -1,0 +1,22 @@
+.procedures-section {
+  margin: 130px 30px;
+
+  &__slider{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  &__container{
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  &__button{
+    display: none;
+
+    @media screen and (min-width: $bt-tablet) {
+      display: flex;
+    }
+  }
+}
