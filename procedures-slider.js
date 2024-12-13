@@ -9,6 +9,7 @@ const swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
     }
   },
+        
   pagination: {
     el: '.pagination',
     bulletClass: 'pagination__button',
