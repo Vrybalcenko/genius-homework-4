@@ -5,10 +5,15 @@
     display: flex;
     gap: 32px;
     align-items: center;
+    margin: 0 20px;
   }
 
   &__container{
     overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  &__list{
     margin-bottom: 32px;
   }
 
