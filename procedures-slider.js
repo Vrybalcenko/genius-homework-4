@@ -1,6 +1,7 @@
 const swiper = new Swiper('.swiper-container', {
   loop: true,
-  slidesPerViev: 1,
+  slidesPerView: 1,
+  spaceBetween: 16,
     breakpoints: {
     550: {
       slidesPerView: 2,
