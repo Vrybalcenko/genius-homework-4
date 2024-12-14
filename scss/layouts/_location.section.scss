@@ -59,19 +59,15 @@
   }
 
   &__input-location {
-    width: 80%;
+    width: 85%;
     padding: 16px 42px;
     position: relative;
-    right: 10px;
+    right: 15px;
     line-height: 1.17;
     border: 1px solid var(--color--data);
     border-radius: 30px;
     background-color: transparent;
 
-    @media screen and (max-width: $bt-tablet) {
-      width: 100%;
-      right: 30px;
-    }
 
     @media screen and (min-width: $bt-tablet) {
       font-size: 16px;
@@ -104,10 +100,6 @@
     font-weight: 600;
     font-size: 22px;
     text-align: center;
-
-    @media screen and (max-width: $bt-tablet) {
-      max-width: none;
-    }
 
     @media screen and (min-width: $bt-tablet) {
       max-width: 274px;
