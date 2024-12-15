@@ -1,4 +1,5 @@
 .backdrop {
+  width: 100%;
   box-sizing: border-box;
   position: fixed;
   z-index: 3;
@@ -10,10 +11,6 @@
   justify-content: center;
   background-color: rgb(0, 0, 0, 0.5);
   transition: opacity 0.2s, visibility 0.2s;
-
-  @media screen and (min-width: $bt-desktop) {
-    width: 100%;
-  }
 }
 
 .backdrop.is-hidden {
@@ -46,13 +43,14 @@
   color: var(--color--white);
 
   @media screen and (min-width: $bt-tablet) {
+    width: 435px;
+    font-size: 42px;
+    font-weight: 700;
     left: 100px;
   }
 
   @media screen and (min-width: $bt-desktop) {
-    width: 435px;
     font-size: 64px;
-    font-weight: 700;
   }
 }
 
@@ -93,6 +91,11 @@
 .modal-form {
   display: block;
   padding: 50px;
+  margin-top: -20px;
+
+  @media screen and (min-width: $bt-tablet) {
+    margin: 0;
+  }
 }
 
 .form-field {
