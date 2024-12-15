@@ -1,6 +1,6 @@
 .hero-section {
   padding: 122px 0;
-  background-image: url('img/mobile-hero-section.png');
+  background-image: url('../img/mobile-hero-section.png');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -20,7 +20,7 @@
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url('/img/mobile-hero-section2@.png');
+    background-image: url('../img/mobile-hero-section2@.png');
 
     @media screen and (min-width: $bt-tablet) {
       background-image: url('../img/background-wave@2x.jpg');
