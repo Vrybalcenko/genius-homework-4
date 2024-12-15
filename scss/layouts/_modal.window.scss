@@ -36,8 +36,6 @@
 
 .modal-call {
   height: auto;
-  position: relative;
-  right: 15px;
   font-size: 20px;
   text-align: center;
   color: var(--color--white);
@@ -46,7 +44,6 @@
     width: 435px;
     font-size: 42px;
     font-weight: 700;
-    left: 100px;
   }
 
   @media screen and (min-width: $bt-desktop) {
@@ -55,8 +52,6 @@
 }
 
 .modal-text {
-  position: relative;
-  left: 10px;
   line-height: 25.78px;
   font-family: "roboto", sans-serif;
   text-align: center;
@@ -89,7 +84,9 @@
 
 /*form*/
 .modal-form {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
   margin-top: -20px;
 
@@ -114,8 +111,6 @@
 }
 
 .form-input {
-  position: relative;
-  left: 5px;
   padding: 8px 21px;
   max-width: 310px;
   font-size: 18px;
@@ -128,7 +123,6 @@
   @media screen and (min-width: $bt-tablet) {
     padding: 16px 42px;
     width: 100%;
-    left: 130px;
   }
 }
 
@@ -149,22 +143,16 @@
 }
 
 .form-button {
-  position: relative;
-  left: 13px;
-  bottom: 5px;
   width: 200px;
   display: block;
   margin: 0 auto;
 
   @media screen and (min-width: $bt-tablet) {
-    left: auto;
     width: 281px;
   }
 }
 
 .form-terms {
-  position: relative;
-  left: 10px;
   color: var(--color--data);
   max-width: 220px;
   font-weight: 500;
