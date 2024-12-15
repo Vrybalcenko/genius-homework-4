@@ -24,11 +24,6 @@
     border-radius: 32px;
     background-color: var(--color--background);
 
-    @media screen and (max-width: $bt-tablet) {
-      width: 95%;
-      height: auto;
-    }
-
     @media screen and (min-width: $bt-tablet) {
       width: 390px;
       height: 480px;
