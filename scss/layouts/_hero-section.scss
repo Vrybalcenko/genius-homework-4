@@ -5,14 +5,14 @@
   background-size: cover;
 
   @media screen and (min-width: $bt-between-position) {
-    background-image: url('../img/backgraund-wave.png');
+    background-image: url('../img/background-wave.png');
   }
 
   @media screen and (min-width: $bt-desktop) {
     padding: 122px 0;
     height: 658px;
     position: relative;
-    background-image: url('../img/backgraund-wave.png');
+    background-image: url('../img/background-wave.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
