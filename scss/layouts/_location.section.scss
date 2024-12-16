@@ -55,6 +55,18 @@
     }
   }
 
+  &__form-location{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: $bt-location-form) {
+    width: 70%;
+    margin-bottom: 32px;
+  }
+  }
+
   &__input-location {
     width: 85%;
     padding: 16px 42px;
