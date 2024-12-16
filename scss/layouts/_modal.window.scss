@@ -22,11 +22,10 @@
 .modal {
   position: relative;
   width: 315px;
-  height: 410px;
   background-color: var(--color--modal);
   border-radius: 32px;
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     width: 100%;
     max-width: 723px;
     height: 100%;
@@ -36,11 +35,11 @@
 
 .modal-call {
   height: auto;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   color: var(--color--white);
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     width: 435px;
     font-size: 42px;
     font-weight: 700;
@@ -58,7 +57,7 @@
   padding: 5px 0 8px 0;
   color: var(--color--white);
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     width: 274px;
     left: 180px;
     font-size: 22px;
@@ -75,10 +74,9 @@
   border-radius: 10px;
   background: transparent;
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     width: 60px;
-    top: 40px;
-    right: 40px;
+    top: 25px;
   }
 }
 
@@ -87,19 +85,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
-  margin-top: -20px;
-
-  @media screen and (min-width: $bt-tablet) {
-    margin: 0;
-  }
+  padding: 30px;
 }
 
 .form-field {
-  position: relative;
+  display: flex;
+  justify-content: center;
   margin-bottom: 16px;
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     margin-bottom: 32px;
   }
 }
@@ -120,7 +114,7 @@
   background-color: transparent;
   color: var(--color--white);
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     padding: 16px 42px;
     width: 100%;
   }
@@ -143,25 +137,26 @@
 }
 
 .form-button {
-  width: 200px;
+  width: 250px;
   display: block;
   margin: 0 auto;
 
-  @media screen and (min-width: $bt-tablet) {
+  @media screen and (min-width: $bt-location-form) {
     width: 281px;
   }
 }
 
 .form-terms {
   color: var(--color--data);
-  max-width: 220px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
+  margin: 15px 0;
 
-  @media screen and (min-width: $bt-tablet) {
-    margin: auto 190px;
+  @media screen and (min-width: $bt-location-form) {
+    margin: 15px 190px;
+    width: 200px;
   }
 }
 
