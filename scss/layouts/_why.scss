@@ -12,6 +12,7 @@
 
     @media screen and (min-width: $bt-tablet) {
       gap: 20px;
+      margin: 20px;
     }
 
     &__items:not(:last-child) {
